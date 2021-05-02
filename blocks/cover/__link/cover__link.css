@@ -14,8 +14,7 @@
 }
 
 .cover__link:before{
-    content: "";
-    opacity: 0.6;
+    content: "";    
     top: 0;
     left: 0;
     bottom: 0;
