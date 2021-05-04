@@ -1,15 +1,15 @@
 .place__title {
     width: 460px;
-    max-height: 152px;
     margin: 0;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-/* or 106% */
+    /* or 106% */
     color: #FFFFFF;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__title {
         width: 440px;
@@ -21,7 +21,7 @@
         width: 340px;
         font-size: 42px;
         line-height: 46px;
-/* identical to box height, or 110% */
+        /* identical to box height, or 110% */
     }
 }
 

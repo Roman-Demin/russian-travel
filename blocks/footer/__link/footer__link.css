@@ -1,4 +1,4 @@
-.footer__link{    
+.footer__link {
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
@@ -10,16 +10,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.footer__link:hover{
+
+.footer__link:hover {
     opacity: .8;
     transition: opacity 1s ease-out;
 }
-@media screen and (max-width: 767px){
-    .footer__link{
+
+@media screen and (max-width: 767px) {
+    .footer__link {
         font-size: 24px;
         line-height: 24px;
         margin-right: 0;
-        display: inline-block;
-        margin-bottom:32px;
-    }    
+        display: flex;
+        margin-bottom: 32px;
+    }
 }

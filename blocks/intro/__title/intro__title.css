@@ -1,13 +1,12 @@
 .intro__title {
     max-width: 690px;
-    max-height: 58px;
     margin: 0;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-/* identical to box height, or 107% */
+    /* identical to box height, or 107% */
     color: #FFFFFF;
 }
 
@@ -20,7 +19,6 @@
 @media screen and (max-width: 767px) {
     .intro__title {
         max-width: 288px;
-        max-height: 70px;
         font-size: 32px;
         line-height: 35px;
     }

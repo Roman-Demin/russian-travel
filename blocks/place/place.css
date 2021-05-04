@@ -1,6 +1,5 @@
 .place {
     max-width: 984px;
-    
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -13,25 +12,24 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-.place {
-    max-width: 928px;
-    max-height: 640px;
-    display: grid;
-    grid-template-columns: 440px 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 32px;
-    row-gap: 48px;
-       }
+    .place {
+        max-width: 928px;
+        display: grid;
+        grid-template-columns: 440px 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 32px;
+        row-gap: 48px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-.place {
-    max-width: 720px;
-    display: grid;
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 28px;
-    row-gap: 48px;
+    .place {
+        max-width: 720px;
+        display: grid;
+        grid-template-columns: 340px 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 28px;
+        row-gap: 48px;
     }
 }
 
