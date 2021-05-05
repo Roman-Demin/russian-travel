@@ -1,7 +1,7 @@
 .footer {
     max-width: 1184px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 92px;
     padding-bottom: 24px;
     display: flex;
@@ -19,14 +19,16 @@
     .footer {
         max-width: 720px;
         margin-top: 88px;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
         margin-top: 64px;
+        margin-left: 0;
+        margin-right: 0;
         align-items: flex-start;
         max-width: 320px;
         flex-direction: column;

@@ -1,7 +1,7 @@
 .place__link {
     width: 456px;
     margin: 0;
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -9,6 +9,8 @@
     /* identical to box height, or 122% */
     text-decoration-line: underline;
     color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
