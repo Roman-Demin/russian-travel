@@ -13,6 +13,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.place__link:hover {
+    opacity: .8;
+    transition: opacity 1s ease-out;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__link {
         width: 352px;
